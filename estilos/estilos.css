@@ -171,3 +171,11 @@ form{
   border-radius: 5px ;
   padding:12px;
 }
+/* VALIDACION*/
+.warnings{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #B06AB3;
+  padding-top: 20px ;
+}
