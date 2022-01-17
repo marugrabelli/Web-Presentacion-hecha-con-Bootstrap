@@ -50,14 +50,16 @@
       </nav>
     </header>
 <!-- principal -->
-<div class="d-flex justify-content-between mb-2 mt-4 py-2 my-2 border-top"></div>
+<div class="d-flex justify-content-between mb-5 mt-2  py-2 my-2 border-top"></div>
+          <h1> Contacto</h1>
+      <div class="d-flex justify-content-between mb-2 mt-2  py-2 my-2 border-top"></div>
             <div class="row">
               <div class="col-lg-12 text-center">
                   <img class="img-fluid" src="https://picsum.photos/id/248/1500/600" />
               </div>
           </div>
-      <div class="d-flex justify-content-between mb-5 mt-2 py-2 my-2 border-top"></div>
-          
+          <div class="d-flex justify-content-between mb-2 mt-2 py-2 my-2 border-top"></div>
+               
 <!--redes contacto --->
           <div class="container">
                 <div class="row">
@@ -111,6 +113,7 @@
                       </svg></li>
                     </ul>
                   </div>
+                    
   <!--FORMULARIO-->
                   <div class="col"id="formulario" >
                     <form action="" >
@@ -119,11 +122,17 @@
                           <ul>
                             <li id="tituloformulario"> <h4 class="textobotones"> Dejame tu consulta</h4></li>
                           </ul>
-                          <div class="col">
-                            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
+                        
+                          
+                          <div class="col " >
+                            <input type="text" class="form-control" id="name"placeholder="Nombre" name="nombre"aria-label="First name" >
+                           
+                            
                           </div>
-                          <div class="col">
-                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" required>
+                          <!--  Teléfono -->
+                          <div class="col " >
+                            <input type="tel" class="form-control" id="telefono"placeholder="Teléfono" name="telefono"aria-label="telefono" >
+                            
                           </div>
                           <div class="form-group">
                             <label for="exampleFormControlSelect1">Recibi información sobre</label>
@@ -134,9 +143,13 @@
                               
                             </select>
                           </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label" id="correo">Correo</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                          <div class="mb-3 " >
+                            <label for="correo" class="form-label" name="correo">Correo</label>
+                            <div>
+                              <input type="email" class="form-control" id="correo" placeholder="name@example.com" >
+                              
+                          </div>
+                            
                           </div>
                           <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Tu consulta</label>
@@ -147,7 +160,8 @@
                             <label class="form-check-label" for="exampleCheck1">Quiero recibir información  de flores.com en mi correo</label>
                           </div>
                           <div  class="col-md-12 col text-center">
-                            <button class="btn btn-dark mb-2 justify-content-center " type="submit" value=""  id="botoncontacto"onclick="botonEnviar()">Enviar</button>
+                            <button class="btn btn-dark mb-2 justify-content-center " type="submit" value=""  id="botoncontacto">Enviar</button>
+                            <p class="warnings" id="warnings"></p>
                             </div>
                           
                         </div>
@@ -158,7 +172,7 @@
               </div>
           
           </form>
-
+        </div>
 
 <!-- SERVICIOS -->
 <div class="d-flex justify-content-between mt-5 py-2 my-2 border-top"></div>
@@ -166,7 +180,7 @@
           <div class="row">
             <h1>Conoce más servicios</h1>
             <div class="col">
-                <img class="img-fluid rounded mx-auto d-block imgservicios" href="#" src="uno .jpg"  />  
+                <img class="img-fluid rounded mx-auto d-block imgservicios" href="#" src="uno.jpg"  />  
             </div>
 
             <div class="col">
@@ -204,7 +218,7 @@
 <div class="d-flex justify-content-between py-2 my-2 border-top "></div>
   <ul class="nav justify-content-center">
     <li class="nav-item">
-      <a class="nav-link active" href="#">Sobre mi</a>
+      <a class="nav-link active" href="quiensoy.html">Sobre mi</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Contacto</a>
